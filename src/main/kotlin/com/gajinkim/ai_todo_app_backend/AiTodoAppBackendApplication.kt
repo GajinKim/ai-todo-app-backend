@@ -9,3 +9,7 @@ class AiTodoAppBackendApplication
 fun main(args: Array<String>) {
 	runApplication<AiTodoAppBackendApplication>(*args)
 }
+
+// Running locally
+// mvn spring-boot:run
+// greeting url = localhost:8080/greeting?name=Gajinkim
